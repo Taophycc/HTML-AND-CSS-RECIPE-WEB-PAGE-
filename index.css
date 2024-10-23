@@ -1,0 +1,196 @@
+@font-face{
+    font-family: outfit;
+    src:url(/assets/fonts/outfit/static/Outfit-Regular.ttf) format("ttf");
+}
+
+@font-face{
+    font-family: young-serif;
+    src:url(/assets/fonts/young-serif/YoungSerif-Regular.ttf) format("ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'outfit';
+}
+
+body {
+    background-color:rgb(244, 230, 217);
+    font-family: 'outfit';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(92, 89, 87);
+    
+    
+}
+.container {
+    background-color: white;
+    height:2000px;
+    width: 680px;
+    margin: 80px 370px 100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    
+    
+}
+img {
+    height:300px;
+    width:615px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+p {
+    font-size: px;
+}
+
+h1 {
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-family: 'young serif';
+    color: rgb(14, 14, 14);
+}
+
+.para {
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'outfit';
+}
+
+h3 {
+    margin-top: 70px;
+    color: rgb(95, 0, 45);
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'young-serif';
+}
+
+#list-1 {
+    align-self: flex-start; 
+    margin-left: 50px;
+    margin-top: 5px;
+    
+}
+
+li::marker {
+    color:  rgb(95, 0, 45);
+    
+}
+li {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.container-2 {
+    align-self: flex-start;
+    align-content: flex-start;
+    margin-left: 35px;
+    margin-top: 40px;
+    height: 180px;
+    width: 600px;
+    background-color: rgb(255, 247, 251);
+    border-radius: 10px;
+    gap: 40px;
+
+}
+
+.second-header {
+    align-self: flex-start;
+    margin-top: 35px;
+    margin-left: 30px;
+    color: rgb(133, 68, 55);
+    font-family: 'young serif';
+}
+#list-2 {
+    align-self: flex-start; 
+    margin-left: 50px;
+    margin-top: 15px;
+    
+}
+#list-2 li::marker {
+    color: rgb(133, 68, 55);
+}
+
+hr {
+    border: 1px solid rgb(229, 229, 229); 
+    width: 90%;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.third-header {
+    align-self: flex-start;
+    margin-top: 35px;
+    margin-left: 35px;
+    color: rgb(133, 68, 55);
+    font-family: 'young serif';
+}
+
+#list-3 li {
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 25px;
+    
+    
+}
+
+.fourth-header{
+    margin-top: 35px;
+    align-self: flex-start;
+    margin-left: 35px;
+    color: rgb(133, 68, 55);
+    font-family: 'young serif';
+}
+
+.second {
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.third {
+    margin-left: 70px;
+    margin-top: 35px;
+   
+}
+
+.fourth {
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.fifth {
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.sixth {
+    margin-left: 70px;
+    margin-top: 25px;
+}
+table {
+    border-collapse: collapse; width: 100%;
+    margin-left: 8px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 80%;
+    
+}
+td {
+    padding: 10px;
+    border: 0px 0px 1px 0px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    border-
+
+
+}
+@media (max-width: 375px;) {
+
+}
+  
